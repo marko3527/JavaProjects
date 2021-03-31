@@ -1,0 +1,13 @@
+origin                 0.5 0
+angle                  90
+unitLength             0.45
+unitLengthDegreeScaler 3.0 / 7
+
+axiom F
+production F F[+FF][-FF]F[-F][+F]F
+
+command F draw 1
+command [ push
+command ] pop
+command + rotate 36
+command - rotate -36
